@@ -17,7 +17,7 @@ ul,li,body,h2,p,div {
 }
 /* header */
 #header{
-	background-color:#1c1c1c;
+	background-color: #1c1c1c;
 	height:60px;
 }
 #logo{
@@ -45,18 +45,19 @@ ul,li,body,h2,p,div {
 	display:block;/* 变成行内元素 */
 }
 #nav li a:hover{
-	background-color: firebrick;
+	background-color:#e6e6e6;
+	color: #1C1C1C;
 }
 /* main */
 #banner{
-	background-color: #FFFFFF;
+	background-color: #fffff4;
 }
 #banner img{
 	display:block;
 	margin:0 auto;
 }
 #main h2 {
-	/* background-color: #e8e8e8; */
+	/* background-color: #f4f4f4; */
 	text-align:center;
 	padding: 20px 0 10px 0;
 	border-bottom:1px solid #ccc;
@@ -68,18 +69,20 @@ ul,li,body,h2,p,div {
 	margin:0 auto;
 }
 .box{
-	background-color: #FFFFFF;
+	background-color: #fff4fa;
 	padding:0 0 40px 0;
 	height:400px;
 }
 .about{
-	background-color: #e8e8e8;
+	background-color: #f4feff;
 }
 .pin{
-	background-color: #e8e8e8;
+	background-color: #f4fff9;
+}
+.jing{
+	background-color: #f4f5ff;
 }
 #yiyiba0{
-	/* background-color: #7FFFD4; */
 	width:1180px;
 	margin:0 auto;
 }
