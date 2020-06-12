@@ -1,0 +1,102 @@
+/* 重置浏览器默认样式*/
+*{
+	margin:0;
+	padding:0;
+}
+ul,li,body,h2,p,div {
+	margin:0;
+	padding:0;
+	list-style:none;
+	list-style-type:none;
+}
+/* wrap */
+.wrap{
+	width:1180px;
+	padding:0 10px;
+	margin:0 auto;
+}
+/* header */
+#header{
+	background-color:#1c1c1c;
+	height:60px;
+}
+#logo{
+	float:left;/* 变成流动元素 */
+	height:40px;
+	margin:10px 0;
+}
+#nav{
+	float:right;
+	height:60px;
+}
+#nav li{
+	float:left;
+	height:60px;
+	line-height:60px;
+	
+}
+#nav li a{
+	color:white;
+	text-decoration:none;/* 去掉超链接下划线 */
+	height:60px;
+	width:70px;
+	padding:0 15px;
+	text-align:center;/* 居中 */
+	display:block;/* 变成行内元素 */
+}
+#nav li a:hover{
+	background-color: firebrick;
+}
+/* main */
+#banner{
+	background-color: #FFFFFF;
+}
+#banner img{
+	display:block;
+	margin:0 auto;
+}
+#main h2 {
+	/* background-color: #e8e8e8; */
+	text-align:center;
+	padding: 20px 0 10px 0;
+	border-bottom:1px solid #ccc;
+}
+#main p {
+	/* background-color:#FFFFFF; */
+	width:1180px;
+	padding:40px 0 0px 0;
+	margin:0 auto;
+}
+.box{
+	background-color: #FFFFFF;
+	padding:0 0 40px 0;
+	height:400px;
+}
+.about{
+	background-color: #e8e8e8;
+}
+.pin{
+	background-color: #e8e8e8;
+}
+#yiyiba0{
+	/* background-color: #7FFFD4; */
+	width:1180px;
+	margin:0 auto;
+}
+/* footer */
+#footer{
+	background-color:#1c1c1c;
+	height:300px;
+	padding:40px 0 0px 0;
+}
+#footer h2{
+	text-align:center;
+	padding: 20px 0 10px 0;
+	color:white;
+}
+#footer p{
+	width:1180px;
+	padding:40px 0 0px 0;
+	margin:0 auto;
+	color:white;
+}
